@@ -1,0 +1,261 @@
+body{
+    
+    margin: 0;
+    
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/* ************HEADER*********** */
+h1,h2,h3,h4{
+    font-family: 'Poppins', sans-serif;
+    
+}
+header{
+    background-color: #333;
+    height: 70px;
+   
+}
+header div{
+    max-width: 1100px;
+    padding:  0 20px;
+    margin: auto;
+}
+#hbt{
+    margin: 17px auto;
+    float: left;
+    color: white;
+}
+.main-nav{
+    float: right;
+    list-style: none;
+    padding: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.main-nav li{
+    
+    float: left;
+    
+}
+.main-nav li a{
+    text-decoration: none;
+    
+    color: white;
+    padding: 25px;
+}
+.main-nav li a:hover{
+    background-color: #444;
+    color: #f7c08a;
+}
+/* ************ENJOY YOUR STAY*********** */
+.stay-sec{
+    background: url('../images/showcase.jpg') no-repeat center center/cover;
+    height: 600px;
+   
+    
+}
+.stay-con{
+    width: 80%;
+    margin: auto;
+    padding-top: 110px;
+    text-align: center;
+}
+.stay-con h1{
+    color: white;
+    font-size: 350%;
+    
+}
+/* REUSABLE */
+.stay-con h1 span,.middle h2 span{
+    color: #f7c08a;
+}
+.stay-con div p{
+    color: white;
+    line-height: 35px;
+    font-size: 120%;
+    letter-spacing: 1px;
+}
+
+.btn{
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    background-color: #333;
+    font-size: 120%;
+
+}
+.stay-con div a:hover{
+    background-color: #f7c08a;
+    color: #333;
+}
+
+/* ************MIDDLE*********** */
+.middle
+{
+    height: 400px;   
+    background-color: rgb(63, 63, 63);
+    
+    
+}
+.middle #img{
+   background-image: url('../images/photo-1.jpg');
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+.middle .content{
+    width: 50%;
+    height: 100%;
+    
+    overflow: hidden;
+    text-align: center;
+    float: right;
+    padding: 30px;
+    box-sizing: border-box;
+    
+}
+
+.middle .content h2{
+    color: white;
+}
+
+.middle .content p{
+    color: white;
+    line-height: 1.5em;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    
+}
+.middle .content a{
+    background-color: white;
+    color: rgb(75, 31, 23);
+}
+.middle .content a:hover{
+    background-color: #f7c08a;
+    color: #333;
+}
+
+/* ************ICONS*********** */
+.fas{
+    font-size: 50px;
+    padding-top: 20px;
+}
+/* ************BOTTOM*********** */
+.bottom{
+    background-color: white;
+   
+    
+    
+}
+
+.col{
+    width: 33.3%;
+
+    text-align: center;
+    padding: 30px 40px;
+    float: left;
+    box-sizing: border-box;
+    
+    }
+.col p{
+    padding-bottom: 20px;
+}
+    .col h2{
+    margin-top: 20px;
+}
+
+.light{
+    background-color: rgb(233, 233, 233);
+}
+.color{
+    background-color: #f7c08a;
+}
+
+/* FOOTER */
+.clear{
+    clear: both;
+}
+footer{
+    background-color: #444;
+    padding: 20px;
+   
+}
+
+footer h4{
+  
+    text-align: center;
+    color: white;
+   font-size: 14px;
+   font-weight: 100;
+   
+}
+
+/* *************************************MEDIA QUeries************************************************ */
+                               /************************** */
+/* **************************************HOME******************************************************* */
+@media(max-width: 500px) {
+
+    header{
+        height: 60px;
+    }
+    #hbt{
+        margin: 15px auto;
+       
+    }
+    .stay-sec{
+       
+        height: 100vh;
+       
+        
+    }
+    .main-nav{
+        margin-top: 20px;
+    }
+.main-nav li a{
+   padding: 25px 15px 20px 15px;
+   
+}
+
+   .middle{
+       height: 120vh;
+   }
+    .middle #img{
+        background-position: center center;
+        background-size: cover;
+        display: block;
+        width: 100%;
+        height: 50%;
+        min-height: auto;
+         float: none;
+         
+     }
+     .middle .content{
+         
+         width: 100%;
+        
+         
+         overflow: auto;
+         
+         float: none;
+         padding: 30px;
+         
+         
+     }
+
+     /* BOTTOM */
+
+     .bottom{
+        background-color: white;
+       
+        
+        
+    }
+    
+    .col{
+        width: 100%;
+        
+        
+        }
+   
+
+
+  }

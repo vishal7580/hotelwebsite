@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+      
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+header{
+    background-color: #333;
+    height: 70px;
+   
+}
+.container {
+    max-width: 1100px;
+    padding:  0 20px;
+    margin: auto;
+}
+#hbt{
+    margin: 22px auto;
+    float: left;
+    font-size: 23px;
+    color: white;
+}
+.main-nav{
+    float: right;
+    list-style: none;
+    padding: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.main-nav li{
+    
+    float: left;
+    
+}
+.main-nav li a{
+    text-decoration: none;
+    
+    color: white;
+    padding: 24px;
+}
+.main-nav li a:hover{
+    background-color: #444;
+    color: #f7c08a;
+}
+/*************** ABouT HOTEL ***********/
+.about {
+   margin: 30px auto;
+}
+.col-1{
+    width: 50%;
+    float: left;
+
+}
+.col-1 h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.col-1 h1 span {
+    color: #f7c08a;
+}
+.col-2{
+    width: 50%;
+    float: right;
+   
+}
+.col-2 img{
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+.about-para{
+    line-height: 1.8em;
+   
+}
+/*********** MIDDLE********* */
+.clr{
+    clear: both;
+}
+.middle{
+    background: url('../images/test-bg.jpg') no-repeat center center/cover;
+    padding: 50px 10px;
+    margin-top: 50px;
+}
+.middle .container{
+    margin: 50px auto;
+}
+.person{
+    width: 100px;
+    border-radius: 100%;
+    float: left;
+    margin-right: 15px;
+    margin-top: 5px;
+    
+   
+}
+.middle-col-1, .middle-col-2{
+    background-color: #f7c08a;
+    height: 150px;
+    padding: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+.middle-col-1 p,.middle-col-2 p{
+   
+  margin-top: 13px;
+    line-height: 1.8em;
+    
+  
+}
+.middle h1{
+    color: white;
+    text-align: center;
+    font-size: 250%;
+    font-family: 'Poppins', sans-serif;
+}
+/* FOOTER */
+
+footer{
+    background-color: #444;
+    padding: 35px;
+   
+}
+
+footer h4{
+    text-align: center;
+    color: white;
+   font-size: 16px;
+   font-weight: 100;
+   
+}
+
+
+/* *************************************MEDIA QUeries************************************************ */
+                               /************************** */
+/* **************************************HOME******************************************************* */
+@media(max-width: 500px) {
+
+    header{
+        height: 60px;
+    }
+    #hbt{
+        margin: 19px auto;
+       
+    }
+    
+    .main-nav{
+        margin-top: 24px;
+    }
+.main-nav li a{
+   padding: 25px 15px 18px 12px;
+   
+}
+.col-1,.col-2{
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.middle-col-1 p,.middle-col-2 p{
+   height: 100%;
+   overflow: hidden;
+   margin-top: 0;
+}
+
+
+}
